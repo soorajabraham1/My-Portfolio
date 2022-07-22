@@ -121,3 +121,5 @@ async function predictModel(){
   // replaces the text in the result tag by the model prediction
   document.getElementById('result').innerHTML = "Prediction: " + y.argMax(1).dataSync();
 }
+// loads the model
+var model = loadModel()
