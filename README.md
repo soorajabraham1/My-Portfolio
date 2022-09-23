@@ -7,7 +7,6 @@ Hi There
 
 I am sooraj Abraham , a computer vision engineer and a deep learning related blogger on medium. I am also Pursuing my masters in Scientific Instrumentation.
 
-I enjoy contributing to Open Source Projects and have contributed to several Gigantic Organizations including, Material UI, Microsoft, Amazon, Webhint, and countless others. 
 I am really enthusiastic about expanding my knowledge in AI. In 2022, I started sharing mu learnings to to the world by blogging in medium and sharing the code in github and made a name for myself.
 
 Outside the world of tech too, I enjoy pushing myself to develop new skills. My hobbies range from football, swimming and traveling with friends.
@@ -17,8 +16,8 @@ books I also love reading books on personal development & financial literacy. My
 # Projects
 
 
-# [Project 1: Data Science Salary Estimator](https://github.com/PlayingNumbers/ds_salary_proj) 
-* Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
+# [Project 1: DC-GAN](https://github.com/soorajabraham1/Computer-Vision--DCGAN) 
+* Train a powerful generative model.
 * Scraped over 1000 job descriptions from glassdoor using python and selenium
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. 
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
