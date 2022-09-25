@@ -18,7 +18,7 @@ books I also love reading books on personal development & financial literacy. My
 * Generated MNIST Digits datas after training the Generator and discriminator.
 * Generated fake Handwritten MNIST datas.
 
-![](/images/positions_by_state.png)
+![](/images/mnist.png)
 
 
 # [Project 2: Conditional GAN](https://github.com/PlayingNumbers/ball_image_classifier) 
