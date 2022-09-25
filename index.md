@@ -1,123 +1,35 @@
----
-layout: default
----
+Hi There
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+I am sooraj Abraham , a computer vision engineer and a deep learning related blogger on medium. I am also Pursuing my masters in Scientific Instrumentation. I am more intrested into Generative Adversarial Networks and currently doing projects in it.
 
-[Link to another page](./another-page.html).
+I am really enthusiastic about expanding my knowledge in AI. In 2022, I started sharing my learnings to to the world by blogging in medium and sharing the code in github and made a name for myself.
 
-There should be whitespace between paragraphs.
+Outside the world of tech too, I enjoy pushing myself to develop new skills. My hobbies range from football, swimming and traveling with friends.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+books I also love reading books on personal development & financial literacy. My favorite ones are The Alchemist by Paulo Coelho in the genre of Adventure and Rich Dad Poor Dad by Robert Kiyosaki in the genre of financial literacy.
 
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+Projects
+Project 1: DC-GAN
+Train a powerful generative model.
+Generated MNIST Digits datas after training the Generator and discriminator.
+Generated fake Handwritten MNIST datas.
 
 
-### Definition lists can be used with HTML syntax.
+Project 2: Conditional GAN
+Inputs a class vector along with the noise to generate specific class. The input is a concatenated vector of noise and class.
+The noise vector is one-hot encoded.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+Project 3: Controllable GAN
+Trained on the celebrity dataset to generate new faces of people.
+obtained controlled generation of faces such as smiling, beard, blad head.
+Project 3: Optical-Character-Recognition-with-EasyOCR-PyTorch
+Extracted text from images using EasyOCR.
+Displayed results using OpenCV.
 
-```
-The final element.
-```
+
+Project 4: Digit Recognizer
+This is one of my kaggle projects.
+trained on MNIST dataset.
+Identifies the hand written digits.
+Further developed a web based digit recognition page that predicts the digit drawn by mouse.
