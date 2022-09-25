@@ -19,18 +19,23 @@ books I also love reading books on personal development & financial literacy. My
 # [Project 1: DC-GAN](https://github.com/soorajabraham1/Computer-Vision--DCGAN) 
 * Train a powerful generative model.
 * Generated MNIST Digits datas after training the Generator and discriminator.
-* Generated fake images of people from the celebrity dataset.
+* Generated fake Handwritten MNIST datas.
 
 ![](/images/positions_by_state.png)
 
 
-# [Project 2: Contrallable GAN](https://github.com/PlayingNumbers/ball_image_classifier) 
-For this example project I built a ball classifier to identify balls from different sports. This could be useful for someone who is new to sports from a certain country. They could take a picture of a ball and an app could serve them some information about the history and rules of the game. This is the underlying model for building something with those capabilities. 
+# [Project 2: Conditional GAN](https://github.com/PlayingNumbers/ball_image_classifier) 
+* Inputs a class vector along with the noise to generate specific class. The input is a concatenated vector of noise and class.
+* The noise vector is one-hot encoded.
+* 
 
 I was able to get the model to predict the sport of the ball with 94% accuracy after minimal tuning. For most of the cases this would meet the need of an end user of the app. To get these results I used transfer learning on a CNN trained on resnet34. This created time efficiencies and solid results. 
 
 ![](/images/matrix_results.png)
+# [Project 3: Controllable GAN](https://github.com/PlayingNumbers/ball_image_classifier) 
+* Trained on the celebrity dataset to generate new faces of people.
+* obtained controlled generation of faces such as smiling, beard, blad head.
 
-# [Project 3: Pix2Pix GAN](https://github.com/PlayingNumbers/ball_image_classifier) 
+# [Project 3: Optical-Character-Recognition-with-EasyOCR-PyTorch](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch) 
 
 # [Project 4: Digit Recognizer](https://github.com/PlayingNumbers/ball_image_classifier) 
