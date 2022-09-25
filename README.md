@@ -29,13 +29,20 @@ books I also love reading books on personal development & financial literacy. My
 * The noise vector is one-hot encoded.
 * 
 
-I was able to get the model to predict the sport of the ball with 94% accuracy after minimal tuning. For most of the cases this would meet the need of an end user of the app. To get these results I used transfer learning on a CNN trained on resnet34. This created time efficiencies and solid results. 
+ 
 
 ![](/images/matrix_results.png)
 # [Project 3: Controllable GAN](https://github.com/PlayingNumbers/ball_image_classifier) 
 * Trained on the celebrity dataset to generate new faces of people.
 * obtained controlled generation of faces such as smiling, beard, blad head.
 
-# [Project 3: Optical-Character-Recognition-with-EasyOCR-PyTorch](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch) 
+# [Project 3: Optical-Character-Recognition-with-EasyOCR-PyTorch](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch)
+* Extracted text from images using EasyOCR.
+* Displayed results using OpenCV.
+*
 
-# [Project 4: Digit Recognizer](https://github.com/PlayingNumbers/ball_image_classifier) 
+# [Project 4: Digit Recognizer](https://github.com/soorajabraham1/Digit_Recognizer) 
+* This is one of my kaggle projects.
+* trained on MNIST dataset.
+* Identifies the hand written digits.
+* Further developed a web based digit recognition page that predicts the digit drawn by mouse. 
