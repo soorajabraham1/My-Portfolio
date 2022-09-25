@@ -37,7 +37,7 @@ books I also love reading books on personal development & financial literacy. My
 * Extracted text from images using EasyOCR.
 * Displayed results using OpenCV.
 *
-
+![](/images/ocr.png)
 # [Project 4: Digit Recognizer](https://github.com/soorajabraham1/Digit_Recognizer) 
 * This is one of my kaggle projects.
 * trained on MNIST dataset.
