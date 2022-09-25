@@ -32,4 +32,4 @@ Project 4: Digit Recognizer
 This is one of my kaggle projects.
 trained on MNIST dataset.
 Identifies the hand written digits.
-Further developed a web based digit recognition page that predicts the digit drawn by mouse.
+Further developed a web based digit recognition page that predicts the digit drawn by mouse..
