@@ -1,5 +1,3 @@
-# Sooraj_Portfolio
-
 
 # [Project 1: DC-GAN](https://github.com/PlayingNumbers/ds_salary_proj) 
 * Train a powerful generative model. 
