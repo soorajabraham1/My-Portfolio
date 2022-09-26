@@ -29,10 +29,12 @@
 * Trained on the celebrity dataset to generate new faces of people. 
 * Obtained controlled generation of faces such as smiling, beard, blad head.
 
-# [Project 3: Digit Recognizer](https://github.com/PlayingNumbers/ball_image_classifier) 
-* This is one of my kaggle projects. 
-* Trained on MNIST dataset. Identifies the hand written digits. 
-* Further developed a web based digit recognition page that predicts the digit drawn by mouse.
+# [Project 3: Sentiment_Analysis_NLP](https://github.com/PlayingNumbers/ball_image_classifier) 
+* Sentiment analysis is a natural language processing technique used to determine whether data is positive, negative or neutral
+* scrapped data from social media website-Twitter.
+* Cleaned the textual data.
+* Lemmatization was done - process of converting a word to its base form. for example the word better is converted to good which is its base form.
+* Removed stop words.
 
 # [Project 4: Tiny_Nerf-3D-Reconstruction](https://github.com/soorajabraham1/Tiny_Nerf-3D-Reconstruction) 
 * Reconstructed a scene of a JBL speaker.
