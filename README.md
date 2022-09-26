@@ -12,9 +12,14 @@
 * WGAN makes progress toward stable training of GANs, but sometimes can still generate only low-quality samples or fail to converge.
 * These problems are often due to the use of weight clipping in WGAN to enforce a Lipschitz constraint on the critic.
 * to solve this, the norm of gradient of the critic is penalized with respect to its input.
+<p align="center">
+    <img src="/images/W-GAN_epoch_1.png" width="200"\>
+    <img src="/images/W-GAN_epoch_85.png" width="200"\>
+</p>
+<p align="center">
+    Left: Epoch 1     Right: Epoch 85
+</p>
 
-
-![](/images/mnist.png)
 
 # [Project 2: Conditional GAN](https://github.com/PlayingNumbers/ball_image_classifier) 
 * This GAN can generate MNIST digits conditioned on class labels
