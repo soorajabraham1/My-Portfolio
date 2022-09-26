@@ -44,8 +44,9 @@
 # [Project 4: Tiny_Nerf-3D-Reconstruction](https://github.com/soorajabraham1/Tiny_Nerf-3D-Reconstruction) 
 * Reconstructed a scene of a JBL speaker.
 * It wasnt clearly reconstructed as the image was captured using hand held smartphone.
-
-![](/images/JBL.gif)
+<p align="left">
+    <img src="/images/JBL.gif" width="240"\>
+</p>
 
 
 # [Project 4: Optical-Character-Recognition](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch) 
