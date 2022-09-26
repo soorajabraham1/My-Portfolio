@@ -7,7 +7,7 @@
 
 ![](/images/mnist.png)
 
-# [Project 2: Wasserstein GAN with Gradient Penality](https://github.com/soorajabraham1/Computer-Vision--DCGAN) 
+# [Project 2: Wasserstein GAN with Gradient Penality](https://github.com/soorajabraham1/Wasserstein-GAN-with-Gradient-Penalty) 
 * GANs are powerful generative models but suffer from training instability.
 * WGAN makes progress toward stable training of GANs, but sometimes can still generate only low-quality samples or fail to converge.
 * These problems are often due to the use of weight clipping in WGAN to enforce a Lipschitz constraint on the critic.
@@ -15,7 +15,7 @@
 ![](/images/W-GAN_epoch_1.png)
 ![](/images/W-GAN_epoch_85.png)
 
-# [Project 2: Conditional GAN](https://github.com/PlayingNumbers/ball_image_classifier) 
+# [Project 2: Conditional GAN]() 
 * This GAN can generate MNIST digits conditioned on class labels
 * Inputs a class vector along with the noise to generate specific class. 
 * The input is a concatenated vector of noise and class. 
@@ -24,14 +24,14 @@
 ![](/images/matrix_results.png)
 
 
-# [Project 3: Controllable GAN](https://github.com/PlayingNumbers/ball_image_classifier) 
+# [Project 3: Controllable GAN](https://github.com/soorajabraham1/Controllable-GAN) 
 * Trained on the celebrity dataset to generate new faces of people. 
 * Obtained controlled generation of faces such as smiling, beard, blad head.
 
 ![](/images/controllable_generation.png)
 
 
-# [Project 3: Sentiment_Analysis_NLP](https://github.com/PlayingNumbers/ball_image_classifier) 
+# [Project 3: Sentiment_Analysis_NLP](https://github.com/soorajabraham1/Sentiment_Analysis_NLP) 
 * Sentiment analysis is a natural language processing technique used to determine whether data is positive, negative or neutral
 * scrapped data from social media website-Twitter.
 * Cleaned the textual data.
