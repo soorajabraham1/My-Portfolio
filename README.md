@@ -35,11 +35,15 @@
 * Further developed a web based digit recognition page that predicts the digit drawn by mouse.
 
 # [Project 4: Tiny_Nerf-3D-Reconstruction](https://github.com/soorajabraham1/Tiny_Nerf-3D-Reconstruction) 
+* Reconstructed a scene of a JBL speaker.
+* It wasnt clearly reconstructed as the image was captured using hand held smartphone.
 
 ![](/images/JBL.gif)
 
 
-# [Project 4: Optical-Character-Recognition-with-EasyOCR-PyTorch ](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch) 
-
+# [Project 4: Optical-Character-Recognition](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch) 
+* EasyOCR is a Python-based library for using a ready-to-use OCR model.
+* Extracted the words from the images.
+* Displayed the extracted sentences on the image itself.
 ![](/images/ocr.png)
 
