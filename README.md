@@ -52,5 +52,8 @@
 * EasyOCR is a Python-based library for using a ready-to-use OCR model.
 * Extracted the words from the images.
 * Displayed the extracted sentences on the image itself.
-![](/images/ocr.png)
+<p align="left">
+    <img src="/images/ocr.png" width="200"\>
+</p>
+
 
