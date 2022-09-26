@@ -12,14 +12,8 @@
 * WGAN makes progress toward stable training of GANs, but sometimes can still generate only low-quality samples or fail to converge.
 * These problems are often due to the use of weight clipping in WGAN to enforce a Lipschitz constraint on the critic.
 * to solve this, the norm of gradient of the critic is penalized with respect to its input.
-<p align="center">
-    <img src="/images/W-GAN_epoch_1.png" width="200"\>
-    <img src="/images/W-GAN_epoch_85.png" width="200"\>
-</p>
-<p align="center">
-    Left: Epoch 1     Right: Epoch 85
-</p>
-
+![](/images/W-GAN_epoch_1.png)
+![](/images/W-GAN_epoch_85.png)
 
 # [Project 2: Conditional GAN](https://github.com/PlayingNumbers/ball_image_classifier) 
 * This GAN can generate MNIST digits conditioned on class labels
@@ -44,17 +38,12 @@
 # [Project 4: Tiny_Nerf-3D-Reconstruction](https://github.com/soorajabraham1/Tiny_Nerf-3D-Reconstruction) 
 * Reconstructed a scene of a JBL speaker.
 * It wasnt clearly reconstructed as the image was captured using hand held smartphone.
-<p align="left">
-    <img src="/images/JBL.gif" width="240"\>
-</p>
-
+![](/images/JBL.gif)
 
 # [Project 4: Optical-Character-Recognition](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch) 
 * EasyOCR is a Python-based library for using a ready-to-use OCR model.
 * Extracted the words from the images.
 * Displayed the extracted sentences on the image itself.
-<p align="left">
-    <img src="/images/ocr.png" width="200"\>
-</p>
 
+![](/images/ocr.png)
 
