@@ -27,6 +27,10 @@
 * Trained on MNIST dataset. Identifies the hand written digits. 
 * Further developed a web based digit recognition page that predicts the digit drawn by mouse.
 
+# [Project 4: Tiny_Nerf-3D-Reconstruction](https://github.com/soorajabraham1/Tiny_Nerf-3D-Reconstruction) 
 
 
+# [Project 4: Optical-Character-Recognition-with-EasyOCR-PyTorch ](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch) 
+
+![](/images/ocr.png)
 
