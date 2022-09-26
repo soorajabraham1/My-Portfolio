@@ -2,7 +2,7 @@
 # [Project 1: DC-GAN](https://github.com/soorajabraham1/Computer-Vision--DCGAN) 
 * Trained a powerful generative model using TensorFlow. 
 * Generated MNIST Digits after training the Generator and discriminator. 
-* Wrote a blog on medium by explaining each steps for implementation. link:(https://github.com/soorajabraham1/Computer-Vision--DCGAN) 
+* Wrote a blog on medium by explaining each steps for implementation. [link:](https://github.com/soorajabraham1/Computer-Vision--DCGAN) 
 
 
 ![](/images/mnist.png)
