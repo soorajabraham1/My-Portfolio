@@ -28,6 +28,9 @@
 * Trained on the celebrity dataset to generate new faces of people. 
 * Obtained controlled generation of faces such as smiling, beard, blad head.
 
+![](/images/controllable_generation.png)
+
+
 # [Project 3: Sentiment_Analysis_NLP](https://github.com/PlayingNumbers/ball_image_classifier) 
 * Sentiment analysis is a natural language processing technique used to determine whether data is positive, negative or neutral
 * scrapped data from social media website-Twitter.
