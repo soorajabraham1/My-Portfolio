@@ -1,52 +1,54 @@
+# Sooraj Abraham · Deep Learning Portfolio
 
-# [Project 1: DC-GAN](https://github.com/soorajabraham1/Computer-Vision--DCGAN) 
-* Trained a powerful generative model using TensorFlow. 
-* Generated MNIST Digits after training the Generator and discriminator. 
-* Wrote a blog on medium by explaining each steps for implementation. [link:](https://github.com/soorajabraham1/Computer-Vision--DCGAN) 
+AI Perception Engineer (Berlin) — real-time computer vision for embedded and edge devices.
+This repo also holds personal projects in generative models, computer vision, 3D reconstruction and NLP.
+The styled portfolio site is in [`index.html`](index.html) (served by GitHub Pages), with a live, in-browser
+[handwritten digit recognizer](digit_recognition/index.html) built with TensorFlow.js.
 
+---
 
-![](/images/mnist.png)
+## [Controllable GAN](https://github.com/soorajabraham1/Controllable-GAN)
+* Trained on the CelebA dataset to generate new faces.
+* Controlled generation of attributes such as smiling, beard and bald head.
 
-# [Project 2: Wasserstein GAN with Gradient Penality](https://github.com/soorajabraham1/Wasserstein-GAN-with-Gradient-Penalty) 
+![Controllable generation](images/controllable_generation.png)
+
+## [Wasserstein GAN with Gradient Penalty](https://github.com/soorajabraham1/Wasserstein-GAN-with-Gradient-Penalty)
 * GANs are powerful generative models but suffer from training instability.
-* WGAN makes progress toward stable training of GANs, but sometimes can still generate only low-quality samples or fail to converge.
-* These problems are often due to the use of weight clipping in WGAN to enforce a Lipschitz constraint on the critic.
-* to solve this, the norm of gradient of the critic is penalized with respect to its input.
-![](/images/W-GAN_epoch_1.png)
-![](/images/W-GAN_epoch_85.png)
+* WGAN improves stability, but weight clipping (used to enforce the Lipschitz constraint) can still cause low-quality samples or failure to converge.
+* WGAN-GP instead penalises the norm of the critic's gradient with respect to its input.
 
-# [Project 2: Conditional GAN]() 
-* This GAN can generate MNIST digits conditioned on class labels
-* Inputs a class vector along with the noise to generate specific class. 
-* The input is a concatenated vector of noise and class. 
-* The noise vector is one-hot encoded.
+| Epoch 1 | Epoch 85 |
+|:---:|:---:|
+| ![](images/W-GAN_epoch_1.png) | ![](images/W-GAN_epoch_85.png) |
 
-![](/images/matrix_results.png)
+## [DC-GAN](https://github.com/soorajabraham1/Computer-Vision--DCGAN)
+* Trained a deep convolutional GAN in TensorFlow.
+* Generated MNIST digits after training the generator and discriminator.
+* Wrote a step-by-step implementation blog on Medium.
 
+![DCGAN MNIST samples](images/mnist.png)
 
-# [Project 3: Controllable GAN](https://github.com/soorajabraham1/Controllable-GAN) 
-* Trained on the celebrity dataset to generate new faces of people. 
-* Obtained controlled generation of faces such as smiling, beard, blad head.
+## Conditional GAN
+* Generates MNIST digits conditioned on a class label.
+* The input is a noise vector concatenated with a one-hot encoded class vector.
 
-![](/images/controllable_generation.png)
+## [Tiny NeRF – 3D Reconstruction](https://github.com/soorajabraham1/Tiny_Nerf-3D-Reconstruction)
+* Reconstructed a scene of a JBL speaker with a Neural Radiance Field.
+* Reconstruction quality was limited because the images were captured with a handheld smartphone.
 
+![NeRF reconstruction](images/JBL.gif)
 
-# [Project 3: Sentiment_Analysis_NLP](https://github.com/soorajabraham1/Sentiment_Analysis_NLP) 
-* Sentiment analysis is a natural language processing technique used to determine whether data is positive, negative or neutral
-* scrapped data from social media website-Twitter.
-* Cleaned the textual data.
-* Lemmatization was done - process of converting a word to its base form. for example the word better is converted to good which is its base form.
-* Removed stop words.
+## [Optical Character Recognition](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch)
+* Used EasyOCR (PyTorch), a ready-to-use OCR library.
+* Extracted words from images and displayed the extracted sentences on the image itself.
 
-# [Project 4: Tiny_Nerf-3D-Reconstruction](https://github.com/soorajabraham1/Tiny_Nerf-3D-Reconstruction) 
-* Reconstructed a scene of a JBL speaker.
-* It wasnt clearly reconstructed as the image was captured using hand held smartphone.
-![](/images/JBL.gif)
+![OCR result](images/ocr.png)
 
-# [Project 4: Optical-Character-Recognition](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch) 
-* EasyOCR is a Python-based library for using a ready-to-use OCR model.
-* Extracted the words from the images.
-* Displayed the extracted sentences on the image itself.
+## [Sentiment Analysis (NLP)](https://github.com/soorajabraham1/Sentiment_Analysis_NLP)
+* Classifies text as positive, negative or neutral.
+* Scraped data from Twitter and cleaned it.
+* Applied lemmatization (e.g. *better* → *good*) and removed stop words.
 
-![](/images/ocr.png)
-
+## [Handwritten Digit Recognizer](digit_recognition/index.html)
+* CNN trained on MNIST, exported to TensorFlow.js and run entirely in the browser.

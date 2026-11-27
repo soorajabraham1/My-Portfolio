@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sooraj Abraham · AI Perception Engineer</title>
+  <meta name="description" content="Sooraj Abraham — AI Perception Engineer in Berlin building real-time computer vision for embedded and edge devices: in-cabin monitoring, LiDAR 3D detection, model compression." />
+  <meta property="og:title" content="Sooraj Abraham · AI Perception Engineer" />
+  <meta property="og:description" content="Real-time computer vision for the edge — in-cabin monitoring, LiDAR 3D detection, pruning &amp; quantization." />
+  <meta property="og:image" content="images/controllable_generation.png" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237c8cff'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='30' fill='white'%3ESA%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <script>
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav">
+    <div class="container">
+      <a href="#top" class="brand">sooraj<span>.</span>abraham</a>
+      <nav class="nav-links">
+        <a href="#experience">Experience</a>
+        <a href="#projects" class="hide-sm">Projects</a>
+        <a href="#skills" class="hide-sm">Skills</a>
+        <a href="#contact">Contact</a>
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle colour theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="container">
+        <span class="eyebrow reveal"><span class="dot"></span> AI Engineer @ Seeing Machines · Berlin</span>
+        <h1 class="reveal">Sooraj Abraham<br /><span class="gradient-text">AI Perception Engineer</span></h1>
+        <p class="lead reveal">
+          I take computer vision from raw data to real-time inference on embedded hardware —
+          custom annotation, training, and compressing deep networks until they run fast at the edge.<br />
+          <span class="typed" id="typed">in-cabin occupant monitoring</span>
+        </p>
+        <div class="btn-row reveal">
+          <a class="btn primary" href="#contact">
+            Get in touch
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a class="btn" href="https://www.linkedin.com/in/sooraj-abraham" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+            LinkedIn
+          </a>
+          <a class="btn" href="https://github.com/soorajabraham1" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.2-3.1-.1-.4-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.6.2 2.8.1 3.2.8.8 1.2 1.9 1.2 3.1 0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="metrics reveal">
+          <div class="metric"><b>91.2%</b><span>mAP@50 on a custom in-cabin CNN under embedded memory limits</span></div>
+          <div class="metric"><b>3.72×</b><span>faster LiDAR 3D detection (1600 ms → &lt;430 ms)</span></div>
+          <div class="metric"><b>+10%</b><span>minority-class recall via custom loss functions</span></div>
+          <div class="metric"><b>92%</b><span>driver emotion classification accuracy on Jetson Nano</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">// experience</div>
+            <h2>Where I've built perception systems</h2>
+            <p>Automotive in-cabin sensing, LiDAR and edge deployment.</p>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="job reveal">
+            <div class="job-meta">
+              <span class="when">Sep 2024 – Present</span>
+              <span class="where">Berlin, Germany</span>
+              <span class="badge">Full-time</span>
+            </div>
+            <div class="job-body">
+              <h3>AI Engineer <span class="at">· Seeing Machines GmbH</span></h3>
+              <ul>
+                <li>Designed and benchmarked custom CNN architectures for real-time in-cabin occupant monitoring, reaching <strong>91.2% mAP@50</strong> within strict embedded memory constraints.</li>
+                <li>Optimised lightweight vision models (YOLO, MobileNet) for edge inference using pruning and quantization.</li>
+                <li>Engineered custom loss functions for edge-case detection and class imbalance, improving minority-class recall by <strong>10%</strong>.</li>
+                <li>Automated data management and labelling workflows with custom Python tooling, speeding up dataset processing.</li>
+                <li>Integrated explainability (Grad-CAM, saliency maps) into the validation pipeline to interpret network attention.</li>
+              </ul>
+              <div class="tags"><span class="tag">CNNs</span><span class="tag">YOLO</span><span class="tag">MobileNet</span><span class="tag">Pruning</span><span class="tag">Quantization</span><span class="tag">Grad-CAM</span></div>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-meta">
+              <span class="when">Mar 2023 – Feb 2024</span>
+              <span class="where">Munich, Germany</span>
+              <span class="badge">Master thesis</span>
+            </div>
+            <div class="job-body">
+              <h3>AI Perception (Master Thesis) <span class="at">· Blickfeld GmbH</span></h3>
+              <ul>
+                <li>Optimised the PointPillars LiDAR 3D point-cloud object detector for embedded devices.</li>
+                <li>Analysed model performance under pruning at different sparsities and under quantization.</li>
+                <li>Made the network <strong>3.72× faster</strong> (1600 ms → under 430 ms) with only a 4% accuracy drop.</li>
+              </ul>
+              <div class="tags"><span class="tag">PyTorch</span><span class="tag">LiDAR</span><span class="tag">PointPillars</span><span class="tag">Raspberry Pi</span></div>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-meta">
+              <span class="when">Dec 2021 – May 2022</span>
+              <span class="where">Jena, Germany</span>
+              <span class="badge">Internship</span>
+            </div>
+            <div class="job-body">
+              <h3>Computer Vision Intern <span class="at">· 4Pilots UG</span></h3>
+              <ul>
+                <li>Prototyped an in-cabin monitoring system for driver drowsiness and emotion detection.</li>
+                <li>Deployed on Jetson Nano and optimised the software for real-time monitoring.</li>
+                <li>Fine-tuned emotion recognition CNNs in TensorFlow, reaching <strong>92% accuracy</strong> on driver emotion classification.</li>
+              </ul>
+              <div class="tags"><span class="tag">TensorFlow</span><span class="tag">Jetson Nano</span><span class="tag">Image processing</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">// side projects</div>
+            <h2>Projects</h2>
+            <p>Personal deep learning work across generative models, vision, 3D and language.</p>
+          </div>
+          <div class="filters" role="tablist" aria-label="Filter projects">
+            <button class="chip active" data-filter="all">All</button>
+            <button class="chip" data-filter="gan">Generative</button>
+            <button class="chip" data-filter="vision">Vision</button>
+            <button class="chip" data-filter="3d">3D</button>
+            <button class="chip" data-filter="nlp">NLP</button>
+          </div>
+        </div>
+
+        <div class="grid" id="project-grid">
+
+          <!-- Controllable GAN -->
+          <article class="card reveal" data-cat="gan vision">
+            <div class="media"><img src="images/controllable_generation.png" alt="Grid of generated celebrity faces with controlled attributes" loading="lazy" /></div>
+            <div class="card-body">
+              <h3>Controllable GAN</h3>
+              <p>Trained on the CelebA dataset to generate new faces, then steered generation toward specific attributes.</p>
+              <ul>
+                <li>Control features like smiling, beard and bald head</li>
+                <li>Attribute control by moving through the latent space</li>
+              </ul>
+              <div class="tags"><span class="tag">GAN</span><span class="tag">CelebA</span><span class="tag">PyTorch</span></div>
+              <div class="card-foot">
+                <a class="card-link" href="https://github.com/soorajabraham1/Controllable-GAN" target="_blank" rel="noopener">View code
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- WGAN-GP -->
+          <article class="card reveal" data-cat="gan">
+            <div class="media split">
+              <img class="pixel" src="images/W-GAN_epoch_1.png" alt="WGAN-GP samples after epoch 1" loading="lazy" />
+              <img class="pixel" src="images/W-GAN_epoch_85.png" alt="WGAN-GP samples after epoch 85" loading="lazy" />
+              <span class="label l">epoch 1</span><span class="label r">epoch 85</span>
+            </div>
+            <div class="card-body">
+              <h3>Wasserstein GAN with Gradient Penalty</h3>
+              <p>Stabilising GAN training by replacing WGAN's weight clipping with a penalty on the critic's gradient norm.</p>
+              <ul>
+                <li>Enforces the Lipschitz constraint without weight clipping</li>
+                <li>Avoids low-quality samples and convergence failures</li>
+              </ul>
+              <div class="tags"><span class="tag">WGAN-GP</span><span class="tag">MNIST</span></div>
+              <div class="card-foot">
+                <a class="card-link" href="https://github.com/soorajabraham1/Wasserstein-GAN-with-Gradient-Penalty" target="_blank" rel="noopener">View code
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- DCGAN -->
+          <article class="card reveal" data-cat="gan">
+            <div class="media"><img class="contain pixel" src="images/mnist.png" alt="MNIST digits generated by a DCGAN" loading="lazy" /></div>
+            <div class="card-body">
+              <h3>DC-GAN</h3>
+              <p>A deep convolutional GAN trained in TensorFlow to generate handwritten MNIST digits.</p>
+              <ul>
+                <li>Generator &amp; discriminator trained adversarially</li>
+                <li>Step-by-step implementation write-up on Medium</li>
+              </ul>
+              <div class="tags"><span class="tag">DCGAN</span><span class="tag">TensorFlow</span><span class="tag">MNIST</span></div>
+              <div class="card-foot">
+                <a class="card-link" href="https://github.com/soorajabraham1/Computer-Vision--DCGAN" target="_blank" rel="noopener">View code
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Conditional GAN -->
+          <article class="card reveal" data-cat="gan">
+            <div class="media placeholder"><div class="glyph">G(z | y)</div></div>
+            <div class="card-body">
+              <h3>Conditional GAN</h3>
+              <p>Generates a specific MNIST digit on demand by conditioning the generator on a class label.</p>
+              <ul>
+                <li>Noise vector concatenated with a one-hot class vector</li>
+                <li>Pick a digit, get a digit</li>
+              </ul>
+              <div class="tags"><span class="tag">cGAN</span><span class="tag">MNIST</span></div>
+            </div>
+          </article>
+
+          <!-- NeRF -->
+          <article class="card reveal" data-cat="3d vision">
+            <div class="media"><img data-src="images/JBL.gif" alt="NeRF 3D reconstruction of a JBL speaker" class="lazy-gif" /></div>
+            <div class="card-body">
+              <h3>Tiny NeRF · 3D Reconstruction</h3>
+              <p>Reconstructed a 3D scene of a JBL speaker from photos using a Neural Radiance Field.</p>
+              <ul>
+                <li>Novel-view synthesis from 2D captures</li>
+                <li>Learned the limits of handheld smartphone capture</li>
+              </ul>
+              <div class="tags"><span class="tag">NeRF</span><span class="tag">3D</span><span class="tag">Novel views</span></div>
+              <div class="card-foot">
+                <a class="card-link" href="https://github.com/soorajabraham1/Tiny_Nerf-3D-Reconstruction" target="_blank" rel="noopener">View code
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- OCR -->
+          <article class="card reveal" data-cat="vision">
+            <div class="media"><img src="images/ocr.png" alt="Text detected and overlaid on an image with EasyOCR" loading="lazy" /></div>
+            <div class="card-body">
+              <h3>Optical Character Recognition</h3>
+              <p>Extracted text from images with EasyOCR (PyTorch) and rendered the detections back onto the image.</p>
+              <ul>
+                <li>Ready-to-use text detection + recognition</li>
+                <li>Extracted sentences overlaid in place</li>
+              </ul>
+              <div class="tags"><span class="tag">EasyOCR</span><span class="tag">PyTorch</span></div>
+              <div class="card-foot">
+                <a class="card-link" href="https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch" target="_blank" rel="noopener">View code
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sentiment -->
+          <article class="card reveal" data-cat="nlp">
+            <div class="media placeholder"><div class="glyph">😊 · 😐 · 😞</div></div>
+            <div class="card-body">
+              <h3>Sentiment Analysis</h3>
+              <p>Classified tweets as positive, negative or neutral with a full NLP preprocessing pipeline.</p>
+              <ul>
+                <li>Scraped data from Twitter</li>
+                <li>Cleaning, stop-word removal and lemmatization</li>
+              </ul>
+              <div class="tags"><span class="tag">NLP</span><span class="tag">Twitter</span></div>
+              <div class="card-foot">
+                <a class="card-link" href="https://github.com/soorajabraham1/Sentiment_Analysis_NLP" target="_blank" rel="noopener">View code
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Digit recognition -->
+          <article class="card reveal" data-cat="vision">
+            <div class="media placeholder"><div class="glyph">✍️ → 7</div></div>
+            <div class="card-body">
+              <h3>Handwritten Digit Recognizer</h3>
+              <p>A CNN trained on MNIST, exported to TensorFlow.js and running entirely in your browser.</p>
+              <ul>
+                <li>Draw on a canvas, get a prediction instantly</li>
+                <li>No server — inference happens client-side</li>
+              </ul>
+              <div class="tags"><span class="tag">CNN</span><span class="tag">TensorFlow.js</span></div>
+              <div class="card-foot">
+                <a class="card-link" href="digit_recognition/index.html">Open demo
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Live demo ===== -->
+    <section id="demo">
+      <div class="container">
+        <div class="demo reveal">
+          <div>
+            <div class="kicker">// try it yourself</div>
+            <h2>Draw a digit. Watch a neural net read it.</h2>
+            <p>My MNIST classifier runs live in your browser with TensorFlow.js. Sketch any number from 0–9 and hit predict — works on desktop and mobile.</p>
+            <a class="btn primary" href="digit_recognition/index.html">
+              Launch the demo
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+          <div class="demo-visual" aria-hidden="true">
+            <span>7</span>
+            <div class="pred">prediction: <b>7</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">// toolkit</div>
+            <h2>Skills</h2>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="skill-card reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <h3>Computer vision</h3>
+            <p>Detection, segmentation and 3D perception for real-world sensors.</p>
+            <div class="tags"><span class="tag">OpenCV</span><span class="tag">YOLO</span><span class="tag">CNNs</span><span class="tag">Segmentation</span><span class="tag">LiDAR</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg></div>
+            <h3>Edge AI &amp; optimisation</h3>
+            <p>Making models small and fast enough for embedded hardware.</p>
+            <div class="tags"><span class="tag">Pruning</span><span class="tag">Quantization</span><span class="tag">CUDA</span><span class="tag">Jetson</span><span class="tag">Raspberry Pi</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg></div>
+            <h3>Machine learning</h3>
+            <p>Training, custom losses, explainability and generative models.</p>
+            <div class="tags"><span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Scikit-learn</span><span class="tag">GANs</span><span class="tag">Grad-CAM</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <h3>Engineering &amp; data</h3>
+            <p>Tooling, data pipelines and LLM applications.</p>
+            <div class="tags"><span class="tag">Python</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">SQL</span><span class="tag">Docker</span><span class="tag">Git</span><span class="tag">Linux</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">RAG</span><span class="tag">LangChain</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">// background</div>
+            <h2>Education &amp; more</h2>
+          </div>
+        </div>
+        <div class="edu-grid">
+          <div class="edu reveal">
+            <span class="when">Oct 2020 – Present</span>
+            <h3>M.Sc. Scientific Instrumentation</h3>
+            <p>Ernst-Abbe-Hochschule Jena, Germany</p>
+          </div>
+          <div class="edu reveal">
+            <span class="when">Aug 2015 – Jun 2019</span>
+            <h3>B.Tech. Electronics &amp; Communication Engineering</h3>
+            <p>Rajagiri School of Engineering and Technology, Kerala, India</p>
+          </div>
+          <div class="edu reveal">
+            <span class="when">2016</span>
+            <h3>Winner · Python Coding Challenge</h3>
+            <p>IoT Challenge tech fest by i3indya Technologies &amp; IIT Bombay; selected as one of 5 state teams for the All-India coding challenge.</p>
+          </div>
+          <div class="edu reveal">
+            <span class="when">Languages</span>
+            <h3>English <span class="lvl">C2</span> · German <span class="lvl">B1</span></h3>
+            <p>Based in Berlin and working in international teams.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact reveal">
+          <div class="kicker">// get in touch</div>
+          <h2>Let's talk perception.</h2>
+          <p>Hiring for computer vision, edge AI or perception roles? I'd be happy to hear from you.</p>
+          <div class="btn-row">
+            <a class="btn primary" id="email-btn" href="#" data-u="soorajabraham1" data-d="gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+              <span>Email me</span>
+            </a>
+            <a class="btn" href="https://www.linkedin.com/in/sooraj-abraham" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+              LinkedIn
+            </a>
+            <a class="btn" href="https://github.com/soorajabraham1" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.2-3.1-.1-.4-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.6.2 2.8.1 3.2.8.8 1.2 1.9 1.2 3.1 0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+              GitHub
+            </a>
+          </div>
+          <p class="loc">📍 Berlin, Germany</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>© <span id="year">2026</span> Sooraj Abraham</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
