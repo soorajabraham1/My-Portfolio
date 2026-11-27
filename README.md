@@ -1,6 +1,7 @@
 # Sooraj Abraham · Deep Learning Portfolio
 
-Generative models, computer vision, 3D reconstruction and NLP projects.
+AI Perception Engineer (Berlin) — real-time computer vision for embedded and edge devices.
+This repo also holds personal projects in generative models, computer vision, 3D reconstruction and NLP.
 The styled portfolio site is in [`index.html`](index.html) (served by GitHub Pages), with a live, in-browser
 [handwritten digit recognizer](digit_recognition/index.html) built with TensorFlow.js.
 

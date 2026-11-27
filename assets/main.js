@@ -58,16 +58,24 @@
     });
   });
 
+  // Email link assembled at runtime to keep the address away from scrapers
+  var emailBtn = document.getElementById("email-btn");
+  if (emailBtn) {
+    var addr = emailBtn.dataset.u + "@" + emailBtn.dataset.d;
+    emailBtn.href = "mailto:" + addr;
+    emailBtn.title = addr;
+  }
+
   // Typing effect in the hero
   var typed = document.getElementById("typed");
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   if (typed && !reduce) {
     var words = [
-      "generative adversarial networks",
-      "computer vision",
-      "neural radiance fields",
-      "optical character recognition",
-      "natural language processing"
+      "in-cabin occupant monitoring",
+      "LiDAR 3D object detection",
+      "pruning & quantization for the edge",
+      "real-time inference on Jetson & embedded",
+      "explainable AI with Grad-CAM"
     ];
     var w = 0, i = words[0].length, deleting = false;
     (function tick() {

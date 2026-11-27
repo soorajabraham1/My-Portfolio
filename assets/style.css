@@ -276,3 +276,48 @@ footer .container { display: flex; justify-content: space-between; gap: 12px; fl
   .grid { grid-template-columns: 1fr; }
   section { padding: 56px 0; }
 }
+
+/* ---------- Recruiter-focused sections ---------- */
+.metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-top: 56px; }
+.metric { padding: 18px; border: 1px solid var(--border); border-radius: 14px; background: color-mix(in srgb, var(--bg-elev) 75%, transparent); }
+.metric b { display: block; font-size: 1.9rem; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 6px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.metric span { color: var(--muted); font-size: .84rem; line-height: 1.45; display: block; }
+
+.timeline { position: relative; display: grid; gap: 18px; }
+.job {
+  display: grid; grid-template-columns: 200px 1fr; gap: 28px; padding: 26px 28px;
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+  transition: border-color .25s, box-shadow .25s;
+}
+.job:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); box-shadow: var(--shadow); }
+.job-meta { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+.job-meta .when { font-family: "JetBrains Mono", monospace; font-size: .85rem; color: var(--text); font-weight: 500; }
+.job-meta .where { color: var(--muted); font-size: .88rem; }
+.badge { font-size: .74rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; margin-top: 4px;
+  color: var(--accent-2); background: color-mix(in srgb, var(--accent-2) 12%, transparent); border: 1px solid color-mix(in srgb, var(--accent-2) 30%, transparent); }
+.job-body h3 { margin: 0 0 10px; font-size: 1.2rem; letter-spacing: -0.01em; }
+.job-body h3 .at { color: var(--muted); font-weight: 500; }
+.job-body ul { margin: 0 0 14px; padding-left: 18px; color: var(--muted); }
+.job-body li { margin: 6px 0; }
+.job-body strong { color: var(--text); font-weight: 600; }
+
+.edu-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.edu { padding: 22px 24px; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); }
+.edu .when { font-family: "JetBrains Mono", monospace; font-size: .8rem; color: var(--accent); }
+.edu h3 { margin: 6px 0 6px; font-size: 1.05rem; }
+.edu p { margin: 0; color: var(--muted); font-size: .92rem; }
+.lvl { font-family: "JetBrains Mono", monospace; font-size: .78rem; padding: 2px 7px; border-radius: 6px; background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent); }
+.contact .loc { margin: 22px auto 0; font-size: .9rem; }
+
+@media (max-width: 900px) {
+  .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .job { grid-template-columns: 1fr; gap: 12px; }
+  .job-meta { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 10px; }
+  .job-meta .badge { margin-top: 0; }
+}
+@media (max-width: 680px) {
+  .edu-grid { grid-template-columns: 1fr; }
+  .job { padding: 20px; }
+  .metric b { font-size: 1.5rem; }
+}
