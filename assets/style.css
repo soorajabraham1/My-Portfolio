@@ -321,3 +321,17 @@ footer .container { display: flex; justify-content: space-between; gap: 12px; fl
   .job { padding: 20px; }
   .metric b { font-size: 1.5rem; }
 }
+
+/* In the field */
+.field-card { display: grid; grid-template-columns: 1fr; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.field-photo { background: #0e1017; min-height: 100%; }
+.field-photo img { width: 100%; height: auto; }
+.field-body { padding: 26px 28px 28px; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; max-width: 820px; }
+.field-body h3 { margin: 0; font-size: 1.25rem; letter-spacing: -0.01em; }
+.field-body p { margin: 0; color: var(--muted); }
+.field-body .badge { margin-top: 0; }
+@media (max-width: 900px) {
+  .field-card { grid-template-columns: 1fr; }
+  .field-photo img { height: auto; }
+  .field-body { padding: 22px; }
+}
