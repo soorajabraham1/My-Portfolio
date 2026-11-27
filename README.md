@@ -2,8 +2,7 @@
 
 AI Perception Engineer (Berlin) — real-time computer vision for embedded and edge devices.
 This repo also holds personal projects in generative models, computer vision, 3D reconstruction and NLP.
-The styled portfolio site is in [`index.html`](index.html) (served by GitHub Pages), with a live, in-browser
-[handwritten digit recognizer](digit_recognition/index.html) built with TensorFlow.js.
+The styled portfolio site is in [`index.html`](index.html) and is live at https://soorajabraham1.github.io.
 
 ---
 
@@ -33,12 +32,6 @@ The styled portfolio site is in [`index.html`](index.html) (served by GitHub Pag
 * Generates MNIST digits conditioned on a class label.
 * The input is a noise vector concatenated with a one-hot encoded class vector.
 
-## [Tiny NeRF – 3D Reconstruction](https://github.com/soorajabraham1/Tiny_Nerf-3D-Reconstruction)
-* Reconstructed a scene of a JBL speaker with a Neural Radiance Field.
-* Reconstruction quality was limited because the images were captured with a handheld smartphone.
-
-![NeRF reconstruction](images/JBL.gif)
-
 ## [Optical Character Recognition](https://github.com/soorajabraham1/Optical-Character-Recognition-with-EasyOCR-PyTorch)
 * Used EasyOCR (PyTorch), a ready-to-use OCR library.
 * Extracted words from images and displayed the extracted sentences on the image itself.
@@ -49,6 +42,3 @@ The styled portfolio site is in [`index.html`](index.html) (served by GitHub Pag
 * Classifies text as positive, negative or neutral.
 * Scraped data from Twitter and cleaned it.
 * Applied lemmatization (e.g. *better* → *good*) and removed stop words.
-
-## [Handwritten Digit Recognizer](digit_recognition/index.html)
-* CNN trained on MNIST, exported to TensorFlow.js and run entirely in the browser.
