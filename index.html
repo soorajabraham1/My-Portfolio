@@ -170,13 +170,12 @@
           <div>
             <div class="kicker">// side projects</div>
             <h2>Projects</h2>
-            <p>Personal deep learning work across generative models, vision, 3D and language.</p>
+            <p>Personal deep learning work across generative models, vision and language.</p>
           </div>
           <div class="filters" role="tablist" aria-label="Filter projects">
             <button class="chip active" data-filter="all">All</button>
             <button class="chip" data-filter="gan">Generative</button>
             <button class="chip" data-filter="vision">Vision</button>
-            <button class="chip" data-filter="3d">3D</button>
             <button class="chip" data-filter="nlp">NLP</button>
           </div>
         </div>
@@ -255,24 +254,6 @@
             </div>
           </article>
 
-          <!-- NeRF -->
-          <article class="card reveal" data-cat="3d vision">
-            <div class="media"><img data-src="images/JBL.gif" alt="NeRF 3D reconstruction of a JBL speaker" class="lazy-gif" /></div>
-            <div class="card-body">
-              <h3>Tiny NeRF · 3D Reconstruction</h3>
-              <p>Reconstructed a 3D scene of a JBL speaker from photos using a Neural Radiance Field.</p>
-              <ul>
-                <li>Novel-view synthesis from 2D captures</li>
-                <li>Learned the limits of handheld smartphone capture</li>
-              </ul>
-              <div class="tags"><span class="tag">NeRF</span><span class="tag">3D</span><span class="tag">Novel views</span></div>
-              <div class="card-foot">
-                <a class="card-link" href="https://github.com/soorajabraham1/Tiny_Nerf-3D-Reconstruction" target="_blank" rel="noopener">View code
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-              </div>
-            </div>
-          </article>
-
           <!-- OCR -->
           <article class="card reveal" data-cat="vision">
             <div class="media"><img src="images/ocr.png" alt="Text detected and overlaid on an image with EasyOCR" loading="lazy" /></div>
@@ -309,45 +290,6 @@
             </div>
           </article>
 
-          <!-- Digit recognition -->
-          <article class="card reveal" data-cat="vision">
-            <div class="media placeholder"><div class="glyph">✍️ → 7</div></div>
-            <div class="card-body">
-              <h3>Handwritten Digit Recognizer</h3>
-              <p>A CNN trained on MNIST, exported to TensorFlow.js and running entirely in your browser.</p>
-              <ul>
-                <li>Draw on a canvas, get a prediction instantly</li>
-                <li>No server — inference happens client-side</li>
-              </ul>
-              <div class="tags"><span class="tag">CNN</span><span class="tag">TensorFlow.js</span></div>
-              <div class="card-foot">
-                <a class="card-link" href="digit_recognition/index.html">Open demo
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-              </div>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== Live demo ===== -->
-    <section id="demo">
-      <div class="container">
-        <div class="demo reveal">
-          <div>
-            <div class="kicker">// try it yourself</div>
-            <h2>Draw a digit. Watch a neural net read it.</h2>
-            <p>My MNIST classifier runs live in your browser with TensorFlow.js. Sketch any number from 0–9 and hit predict — works on desktop and mobile.</p>
-            <a class="btn primary" href="digit_recognition/index.html">
-              Launch the demo
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-            </a>
-          </div>
-          <div class="demo-visual" aria-hidden="true">
-            <span>7</span>
-            <div class="pred">prediction: <b>7</b></div>
-          </div>
         </div>
       </div>
     </section>
